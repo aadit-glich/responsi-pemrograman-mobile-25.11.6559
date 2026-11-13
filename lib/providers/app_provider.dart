@@ -20,20 +20,10 @@ class AppProvider extends InheritedWidget {
 
   
   final Student student;
-
-  
   final List<Note> notes;
-
-  
   final bool isLoading;
-
-  
   final Future<void> Function(Student) updateStudent;
-
-  
   final Future<void> Function(Note) addNote;
-
-  
   final Future<void> Function(String) deleteNote;
 
   
@@ -58,11 +48,7 @@ class AppProvider extends InheritedWidget {
 class AppProviderWrapper extends StatefulWidget {
   
   const AppProviderWrapper({super.key, required this.child, this.repository});
-
-  
   final Widget child;
-
- 
   final NoteRepository? repository;
 
   @override
