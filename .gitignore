@@ -1,0 +1,33 @@
+# Konfigurasi rahasia
+.env
+
+# Build & tooling
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+*.jks
+*.keystore
+key.properties
+
+# iOS
+ios/Pods/
+ios/.symlinks/
